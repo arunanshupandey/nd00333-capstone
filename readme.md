@@ -97,7 +97,7 @@ I have used the primary metric as "Accuracy" for this problem and I have tried t
 
 ### Results
 
-1. The best performing accuracy was 92%
+1. The best performing accuracy was 86%
 2. The parameters of the model are: ['--C', '0.1', '--max_iter', '50', '--solver', 'liblinear']
 
 I could increase the number of parameter ranges that I have used. I can even change the method of sampling used for the execution to run faster or slower and find good accurate results.
@@ -107,9 +107,14 @@ Following screenshots provide more details:
 1. Hyperparameter choices
 ![image](https://user-images.githubusercontent.com/25560357/123900951-aceda580-d987-11eb-807f-876dc1ab345d.png)
 
-2. Best Model Run
+![image](https://user-images.githubusercontent.com/25560357/123914127-b1708900-d99c-11eb-8d82-f4402f7c5cbb.png)
 
-3. Final parameters
+![image](https://user-images.githubusercontent.com/25560357/123914195-c3522c00-d99c-11eb-9268-5ec3befaacec.png)
+
+
+2. Best Model Run
+![image](https://user-images.githubusercontent.com/25560357/123914264-d82ebf80-d99c-11eb-835b-520c9a209ea2.png)
+
 
 ## Model Deployment
 I have deployed AutoML model. The model is deployed as an end point and can be accessed by quering the endpoint with the given inputs. 
