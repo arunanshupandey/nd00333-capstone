@@ -121,7 +121,6 @@ parameters
 ![image](https://user-images.githubusercontent.com/25560357/123959410-c284be80-d9cb-11eb-903f-c405e1648639.png)
 
 
-
 ## Model Deployment
 I have deployed AutoML model. The model is deployed as an end point and can be accessed by quering the endpoint with the given inputs. 
 The following screenshots provide more details:
@@ -129,8 +128,13 @@ The following screenshots provide more details:
 1. Deployed endpoints
 ![image](https://user-images.githubusercontent.com/25560357/123959577-f95ad480-d9cb-11eb-8239-7c2b39f03f40.png)
 ![image](https://user-images.githubusercontent.com/25560357/123959658-0bd50e00-d9cc-11eb-8045-8b35d1d945c1.png)
+![image](https://user-images.githubusercontent.com/25560357/123973133-1fd33c80-d9d9-11eb-9061-cd4e1b446f9d.png)
+
 
 2. Validation results
+![image](https://user-images.githubusercontent.com/25560357/123973407-5e68f700-d9d9-11eb-8113-b9da8d0dd8d6.png)
+
+
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
