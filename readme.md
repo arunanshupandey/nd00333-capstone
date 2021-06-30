@@ -1,4 +1,4 @@
-# Hear Failure Prediction using AutoML and Hyperdrive
+# Heart Failure Prediction using AutoML and Hyperdrive
 
 Created as a submission for the final Capstone project for Udacity NanoDegree, this repository contains two ways to solve a classification problem. The dataset , as suggested in the project, was taken from Kaggle. The dataset contains people profile for prediction of heart failures. In the project, we used AutoML feature to auto-featurize the dataset and try multiple optimal classification algorithms as a part of automl notebook. The model finalized by the automl is deployed using AzureML SDK and tested. The other path used SKlearn library and find an optimal solution (hyper parameter values) through HyperDrive. 
 
