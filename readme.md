@@ -56,11 +56,26 @@ I followed the approach used in previous project and experiments to solve a clas
 Following screenshots provide more details: 
 
 1. Cluster Creation
+![image](https://user-images.githubusercontent.com/25560357/123896181-aeff3680-d97e-11eb-8d2f-d679a63eae36.png)
+
 2. Dataset Load
+![image](https://user-images.githubusercontent.com/25560357/123896209-b9213500-d97e-11eb-9b97-b280f8b5c79b.png)
+
 3. AutoML Configs
+![image](https://user-images.githubusercontent.com/25560357/123896253-d35b1300-d97e-11eb-9ffd-d784fd87d9db.png)
+
 4. AutoML Runs
+![image](https://user-images.githubusercontent.com/25560357/123898056-3a2dfb80-d982-11eb-98c7-25f68c0e8779.png)
+
 5. Deployment of the model
+![image](https://user-images.githubusercontent.com/25560357/123898758-8e85ab00-d983-11eb-8b31-c052e47c6eaa.png)
+![image](https://user-images.githubusercontent.com/25560357/123898773-96454f80-d983-11eb-8980-fd5477d1da73.png)
+
+
 6. Test Results
+![image](https://user-images.githubusercontent.com/25560357/123898802-a52c0200-d983-11eb-9c5e-f61cd4878d13.png)
+![image](https://user-images.githubusercontent.com/25560357/123898834-b117c400-d983-11eb-9ee9-8c91b36994b2.png)
+
 
 There were multiple suggestions provided in the discussion forum of Kaggle where users have tried to improve the result. In summary, the model could have been improved by increasing the runs, capturing more data, including more features.
 
@@ -77,6 +92,9 @@ RandomParameterSampling(
 
 I have used the primary metric as "Accuracy" for this problem and I have tried to maximize it.
 
+![image](https://user-images.githubusercontent.com/25560357/123900951-aceda580-d987-11eb-807f-876dc1ab345d.png)
+
+
 ### Results
 
 1. The best performing accuracy was 92%
@@ -87,7 +105,10 @@ I could increase the number of parameter ranges that I have used. I can even cha
 Following screenshots provide more details: 
 
 1. Hyperparameter choices
+![image](https://user-images.githubusercontent.com/25560357/123900951-aceda580-d987-11eb-807f-876dc1ab345d.png)
+
 2. Best Model Run
+
 3. Final parameters
 
 ## Model Deployment
