@@ -137,8 +137,7 @@ The following screenshots provide more details:
 
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
-- A working model
-- Demo of the deployed  model
-- Demo of a sample request sent to the endpoint and its response
+The link can be found here : 
+https://youtu.be/o_h3Qz6aajQ
+
 
