@@ -9,20 +9,21 @@ from sklearn.model_selection import train_test_split
 from azureml.core.run import Run
 from azureml.data.dataset_factory import TabularDatasetFactory
 from azureml.core.workspace import Workspace
+from azureml.core import Dataset
 
 run = Run.get_context()
+ws = run.experiment.workspace
+
+
 
 def main():
-    ws = Workspace.from_config()
     
     key = "HeartFailureRate"
-    description_text = "Dataset for heart failure recommendation"
-    if key in ws.datasets.keys(): 
-        print("Dataset found")            
-        dataset = ws.datasets[key] 
-
-    #data = dataset.to_pandas_dataframe()
-
+    
+    url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/00519/heart_failure_clinical_records_dataset.csv'
+    dataset = Dataset.Tabular.from_delimited_files(url)
+    dataset = dataset.register(ws,key)
+    
     x = dataset.to_pandas_dataframe()
     y = x.pop("DEATH_EVENT")    
     
