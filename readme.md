@@ -127,6 +127,9 @@ I have deployed AutoML model. The model is deployed as an end point and can be a
 The following screenshots provide more details:
 
 1. Deployed endpoints
+![image](https://user-images.githubusercontent.com/25560357/123959577-f95ad480-d9cb-11eb-8239-7c2b39f03f40.png)
+![image](https://user-images.githubusercontent.com/25560357/123959658-0bd50e00-d9cc-11eb-8045-8b35d1d945c1.png)
+
 2. Validation results
 
 ## Screen Recording
