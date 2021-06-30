@@ -66,6 +66,8 @@ Following screenshots provide more details:
 
 4. AutoML Runs
 ![image](https://user-images.githubusercontent.com/25560357/123898056-3a2dfb80-d982-11eb-98c7-25f68c0e8779.png)
+![image](https://user-images.githubusercontent.com/25560357/123959443-cb759000-d9cb-11eb-8086-3b282533d8ac.png)
+
 
 5. Deployment of the model
 ![image](https://user-images.githubusercontent.com/25560357/123898758-8e85ab00-d983-11eb-8b31-c052e47c6eaa.png)
@@ -114,6 +116,10 @@ Following screenshots provide more details:
 
 2. Best Model Run
 ![image](https://user-images.githubusercontent.com/25560357/123914264-d82ebf80-d99c-11eb-835b-520c9a209ea2.png)
+
+parameters 
+![image](https://user-images.githubusercontent.com/25560357/123959410-c284be80-d9cb-11eb-903f-c405e1648639.png)
+
 
 
 ## Model Deployment
